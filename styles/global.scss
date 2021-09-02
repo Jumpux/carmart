@@ -1,0 +1,39 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import "bootstrap/scss/bootstrap";
+$grid-columns: 24; // This overrides default value (12)
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: unset;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.slick-list {
+  overflow: inherit;
+  width: 80%;
+}
+
+@media (max-width: 786px) {
+  .slick-list {
+    width: 100%;
+    overflow: hidden;
+  }
+}

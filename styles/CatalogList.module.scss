@@ -1,0 +1,20 @@
+.CatalogList {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 80px 0 50px;
+}
+
+@media (max-width: 1350px) {
+  .CatalogList {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .CatalogList {
+    padding: 50px 20px 50px 20px;
+  }
+}
